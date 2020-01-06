@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
     <body class="antialiased font-sans">
+      @include('_partials/header')
+
+      <main class="max-w-6xl mx-auto">
         @yield('content')
+      </main>
     </body>
 </html>
