@@ -13,5 +13,7 @@
       <main class="max-w-6xl mx-auto">
         @yield('content')
       </main>
+      @include('_partials/footer')
+
     </body>
 </html>

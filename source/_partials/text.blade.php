@@ -1,4 +1,6 @@
- Current Students Faculty and Staff Alumni
+Current Students 
+Faculty and Staff 
+Alumni
 Discover your path
 With over 40 accredited programs, Knight University brings you the programs you need to gain the skills and knowledge to pursue your career.
 Art
