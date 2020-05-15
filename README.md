@@ -56,6 +56,14 @@ A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten
     npm run dev
     ```
 
+6. To put on github:
+
+```sh
+rm -rf docs
+npm run prod
+npm run docs
+```
+
 To use BrowserSync, run the watch script instead: `npm run watch`
 
 By default, unused CSS will be purged *only* when running `npm run production` - however, this is [configurable](https://github.com/spatie/laravel-mix-purgecss#usage).
