@@ -10,6 +10,9 @@
     <body class="antialiased font-sans">
       @include('_partials/header')
 
+      @yield('hero')
+      @yield('subfeature')
+
       <main class="max-w-6xl mx-auto">
         @yield('content')
       </main>

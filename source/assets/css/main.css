@@ -595,6 +595,11 @@ video {
   height: auto;
 }
 
+a {
+  color: [object Object];
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
 }

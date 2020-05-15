@@ -1,5 +1,8 @@
 @import "tailwindcss/base";
-
+a {
+    color: theme('colors.purple');
+    text-decoration: underline;
+}
 @import "tailwindcss/components";
 
 @import "custom";
