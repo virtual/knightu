@@ -8,7 +8,7 @@
   <li>
     @include('_components.button', [
         'text' => 'Apply',
-        'link' => '{{ $page->baseUrl }}/admissions/apply'
+        'link' => '/admissions/apply'
         ])
   </li>
   <li><a class="hover:bg-yellow-100 py-2 px-4" href="#">Search</a></li>

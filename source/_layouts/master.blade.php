@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>@yield('title') | {{ $page->siteTitle }}</title>
-        <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css">
+        <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css?v=2">
             <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
