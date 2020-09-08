@@ -8,14 +8,14 @@
   <address class="w-full sm:w-1/2 md:w-1/3"> Address</address>
   <nav class="flex w-full sm:w-1/2 md:w-2/3"  aria-label="Footer navigation">
     <ul class="w-full sm:w-1/2 md:w-1/4 text-white">
-      <li><a class="hover:underline py-2 px-4" href="#"><h2>About</h2></a></li>
+      <li><a class="hover:underline py-2 px-4" href="{{ $page->baseUrl }}/about"><h2>About</h2></a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Privacy Policy</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Faculty</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Programs Department</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Counseling Services</a></li>
     </ul>
     <ul class="w-full sm:w-1/2 md:w-1/4 text-white">
-      <li><a class="hover:underline py-2 px-4" href="#"><h2>Academics</h2></a></li>
+      <li><a class="hover:underline py-2 px-4" href="{{ $page->baseUrl }}/academics"><h2>Academics</h2></a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Faculty Directory</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Application Checklist</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Privacy Policy</a></li>
@@ -24,7 +24,7 @@
       <li><a class="hover:underline py-2 px-4" href="#">Counseling Services</a></li>
     </ul>
     <ul class="w-full sm:w-1/2 md:w-1/4 text-white">
-      <li><a class="hover:underline py-2 px-4" href="#"><h2>Admissions</h2></a></li>
+      <li><a class="hover:underline py-2 px-4" href="{{ $page->baseUrl }}/admissions"><h2>Admissions</h2></a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Privacy Policy</a></li> 
       <li><a class="hover:underline py-2 px-4" href="#">Faculty</a></li>
       <li><a class="hover:underline py-2 px-4" href="#">Programs Department</a></li>

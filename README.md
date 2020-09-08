@@ -2,6 +2,31 @@
 
 A demo site for Knight University
 
+### Download:
+
+- `composer install`
+- `npm install` or see below for Windows
+
+### Development
+
+- `cd ~/Homestead`
+- `vagrant up`
+- `vagrant ssh` - log in to vagrant
+- `cd code/knightu`
+- `npm run watch` or  `npm run watch-poll` - Watch and compile changes, must be done from vagrant server
+- use `http://localhost:3000/` for dev
+
+### Put on Github:
+
+- `rm -rf docs`
+- `npm run prod`
+- `npm run docs`
+
+### Windows: 
+
+- `npm install --no-bin-links` from Windows bash (or `npm update --no-bin-links` for updates)
+- `sudo npm rebuild node-sass --no-bin-links` from Vagrant bash
+
 ------------------------------------
 
 ## Jigsaw + Tailwind CSS Starter Kit

@@ -1,0 +1,20 @@
+/* .main {
+  @apply h-screen flex flex-col items-center justify-center bg-gray-300;
+} */
+
+.main a {
+  @apply text-blue-500 no-underline;
+}
+
+.main a:hover {
+  @apply text-blue-700;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}

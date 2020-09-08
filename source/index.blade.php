@@ -1,5 +1,9 @@
 @extends('_layouts.master')
 
+@section('title')
+Home
+@endsection
+
 @section('hero')
 @include('_partials.hero')
 @endsection
@@ -42,8 +46,7 @@
 @endsection
 
 @section('content')
-
-<main class="main">
+ 
     <h1 class="font-light text-3xl text-black">Knight University</h1>
 
     <section class="bg-white">
@@ -53,11 +56,16 @@
         'desc' => 'More than 130 guests were in attendance',
         'alt' => 'students at a table',
         'img' => '/stock/stefan-stefancik-257625-unsplash.jpg',
-        'link' => '#',
+        'link' => './news',
         'datetime' => '2020-01-05 11:31'
         ])
     </section>
 
-</main>
+    <section>
+
+      <h2 id="alumni">All about Alumni anchor</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellat iure. Quo quibusdam adipisci, repudiandae, inventore dolores autem asperiores eos, deleniti reprehenderit nam laboriosam omnis ipsum impedit quaerat voluptatibus fugit.</p>
+    </section>
+ 
 
 @endsection
